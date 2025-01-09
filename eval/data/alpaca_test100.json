@@ -1,0 +1,402 @@
+[
+    {
+        "id": 0,
+        "prompt": "Using the ingredients that are available, create a dinner recipe.\n\nKale + almond butter + apple cider vinegar + agave nectar + tamari"
+    },
+    {
+        "id": 1,
+        "prompt": "My favorite witty review of The Rings of Power series is this:"
+    },
+    {
+        "id": 2,
+        "prompt": "Suggest some Audiobooks for First-Time Listeners. You can attract them by choosing popular works."
+    },
+    {
+        "id": 3,
+        "prompt": "Can you write a short story where Hildibrand Manderville somehow gets transformed into Gandalf the Grey and he must work with The Warrior of Light and Nashu to restore his regular, most gentlemanly form. "
+    },
+    {
+        "id": 4,
+        "prompt": "Estimate the cost of supplies required to create the given project and calculate the total cost.\n\nDIY Water Chiller\nRequired items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply"
+    },
+    {
+        "id": 5,
+        "prompt": "What's the permission that allows creating provisioning profiles in Apple Developer account is called?"
+    },
+    {
+        "id": 6,
+        "prompt": "What are some Nietzsche's philosophical ideas that still influence modern-day culture?"
+    },
+    {
+        "id": 7,
+        "prompt": "You need to write an email to negotiate your salary."
+    },
+    {
+        "id": 8,
+        "prompt": "What are the steps to using random (yet coherent) text as filler content within your Word document?"
+    },
+    {
+        "id": 9,
+        "prompt": "How long will it take to walk around the world, assuming that would be possible?"
+    },
+    {
+        "id": 10,
+        "prompt": "Design a template table for keeping track of all subscriptions."
+    },
+    {
+        "id": 11,
+        "prompt": "Can you explain Fermat's Last Theorem?"
+    },
+    {
+        "id": 12,
+        "prompt": "How do I get better at aiming with my slingshot?"
+    },
+    {
+        "id": 13,
+        "prompt": "Given a real estate listing description, extract the information and details of the property from the text. The details consist of address, basic house attributes, etc.\n\nWALK TO THE BEACH FROM CAPITOLA KNOLLS! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner."
+    },
+    {
+        "id": 14,
+        "prompt": "I am making mayonnaise, it was starting to thicken but now it has become runny and liquid again, is there any way to salvage it?"
+    },
+    {
+        "id": 15,
+        "prompt": "Classify the tweet into one of the following three categories: event, demo, or news. Event is a happening, often social or public, that people attend or are aware of. Demo is a  public showing or presentation of something, typically to promote or advertise it. And, news is information about recent events or happenings, especially as reported by news media.\n\nUsing this tutorial, you can analyze and classify a user\u2019s review as either positive or negative using sentiment analysis features in an existing Next.js app. We show you how to leverage language AI into your applications. Check it out \u2193"
+    },
+    {
+        "id": 16,
+        "prompt": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.\n\nRose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug"
+    },
+    {
+        "id": 17,
+        "prompt": "What if the Aztecs had successfully repelled the Spanish conquistadors?"
+    },
+    {
+        "id": 18,
+        "prompt": "Provide me with a list of 10 names from various cultures that mean love, care, and/or empathy."
+    },
+    {
+        "id": 19,
+        "prompt": "What are the five most common causes of stress among people?"
+    },
+    {
+        "id": 20,
+        "prompt": "Provide a detailed explanation of the steps that are required in order to construct the given project.\n\nSteam Engine Using an Empty Beer Can"
+    },
+    {
+        "id": 21,
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Argentinian dishes. Can you give me a recipe for Milanesa de peceto?"
+    },
+    {
+        "id": 22,
+        "prompt": "Suggest some names for a friendly group in telegram."
+    },
+    {
+        "id": 23,
+        "prompt": "how does two factor authentication work?"
+    },
+    {
+        "id": 24,
+        "prompt": "In TypeScript, how can I tell the type system \"I know that in theory this value may have these multiple types, but in practice I know it will only have this one\""
+    },
+    {
+        "id": 25,
+        "prompt": "Write a simple guide for uploading the bibliography database\n on Overleaf."
+    },
+    {
+        "id": 26,
+        "prompt": "explain what the theory of sexual selection is and give an example."
+    },
+    {
+        "id": 27,
+        "prompt": "Why did humans evolve to believe in God?"
+    },
+    {
+        "id": 28,
+        "prompt": "How would the Future of AI in 10 Years look?"
+    },
+    {
+        "id": 29,
+        "prompt": "I want to get better at networking at work"
+    },
+    {
+        "id": 30,
+        "prompt": "Give a grammar tip on how to end a German verb."
+    },
+    {
+        "id": 31,
+        "prompt": "Should I get my children a nanny? I'm so exhausted."
+    },
+    {
+        "id": 32,
+        "prompt": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information.\n\nTen European football teams \u2013 the Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland and Wales \u2013 will participate in a season-long \u201cOneLove\u201d campaign promoting inclusion and opposing discrimination."
+    },
+    {
+        "id": 33,
+        "prompt": "Can you provide a list of health food brands owned by Hispanic founders"
+    },
+    {
+        "id": 34,
+        "prompt": "You are given a Python command and are required to convert it into Ruby.\n\nprint(\"Hello World!\")"
+    },
+    {
+        "id": 35,
+        "prompt": "Write me a 2000 word essay on a water safety engineering project."
+    },
+    {
+        "id": 36,
+        "prompt": "Can you list the top 20 films or movies between 1930 and 1940 that are in English and in the US public domain?"
+    },
+    {
+        "id": 37,
+        "prompt": "Has there been any news regarding a potential release date for Starcraft 3?"
+    },
+    {
+        "id": 38,
+        "prompt": "Find sentences from reliable sources such as the Guardian or Forbes that contain the exact match for the given sentence or phrase. Also, mention the source of each sentence.\n\nThere are great options"
+    },
+    {
+        "id": 39,
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Tunisian dishes. Can you give me a recipe Tunisian Kammounia?"
+    },
+    {
+        "id": 40,
+        "prompt": "write me a top 10 list of the funniest ways to die"
+    },
+    {
+        "id": 41,
+        "prompt": "I am going to try to roast a pig at home for Thanksgiving this year. What equipment and techniques do I need to successfully get a pig roasted?"
+    },
+    {
+        "id": 42,
+        "prompt": "Structure a podcast script for an episode discussing the influence of streaming platforms on the music industry."
+    },
+    {
+        "id": 43,
+        "prompt": "Create a daily itinerary based on the given information.\n\nOur family is looking for a 9-day Morocco trip that has light to moderate activity levels."
+    },
+    {
+        "id": 44,
+        "prompt": "What are the lyrics to the third verse of Rick Astley's Never Gonna Give You Up?"
+    },
+    {
+        "id": 45,
+        "prompt": "Answer the following question.\n\nHow do you say \"good evening\" in French."
+    },
+    {
+        "id": 46,
+        "prompt": "Provide a Java solution to the following problem.\n\nGiven an integer n, return true if it is a power of three. Otherwise, return false.\nAn integer n is a power of three, if there exists an integer x such that n == 3^x.\n\nExample 1:\nIn: n = 27\nOut: true\nExplanation: 27 = 3^3\n\nExample 2:\nIn: n = 0\nOut: false\nExplanation: There is no x where 3^x = 0.\n\nExample 3:\nIn: n = -1\nOut: false\nExplanation: There is no x where 3x = (-1).\n \nConstraints:\n-231 <= n <= 231 - 1\nFollow up: Could you solve it without loops/recursion?"
+    },
+    {
+        "id": 47,
+        "prompt": "Compose an engaging travel blog post about a recent trip to Hawaii, highlighting cultural experiences and must-see attractions."
+    },
+    {
+        "id": 48,
+        "prompt": "How would I go about teaching my cat French?"
+    },
+    {
+        "id": 49,
+        "prompt": "in billiards what happens if on the break every strip ball is pocketed?"
+    },
+    {
+        "id": 50,
+        "prompt": "I want to start saving some money by growing my own food. Can I do this during the winter with an indoor garden?"
+    },
+    {
+        "id": 51,
+        "prompt": "Include important study notes and key points that someone should know about the given subject.\n\nhistory of the USA"
+    },
+    {
+        "id": 52,
+        "prompt": "Make a list of snacks and foods to serve as party snacks on a game day!"
+    },
+    {
+        "id": 53,
+        "prompt": "Provide a pleasant compliment based on the quality you have been given.\n\nTruthfulness"
+    },
+    {
+        "id": 54,
+        "prompt": "Hi, I'm interested in learning to play badminton. Can you explain the game to me?"
+    },
+    {
+        "id": 55,
+        "prompt": "Do you know how to speak German?"
+    },
+    {
+        "id": 56,
+        "prompt": "Extract the method that has been used in the research from the abstract of the paper. Give the exact sentences from the abstract that discuss the method.\n\nWe present a state-of-the-art speech recognition system developed using end-to-end deep learning. Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines; these traditional systems also tend to perform poorly when used in noisy environments. In contrast, our system does not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learns a function that is robust to such effects. We do not need a phoneme dictionary, nor even the concept of a \"phoneme.\" Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training. Our system, called Deep Speech, outperforms previously published results on the widely studied Switchboard Hub5'00, achieving 16.0% error on the full test set. Deep Speech also handles challenging noisy environments better than widely used, state-of-the-art commercial speech systems.Collapse"
+    },
+    {
+        "id": 57,
+        "prompt": "You are given a tweet and you should decide whether it's offensive or not.\n\nShe has certainly taken some heat for being such an....well idiot."
+    },
+    {
+        "id": 58,
+        "prompt": "Decide which part of speech the underlined word belongs to.\n\nschool will _keep through the winter"
+    },
+    {
+        "id": 59,
+        "prompt": "Give a brief summary of the movie or series' plot.\n\nBreaking Bad (TV Series 2008\u20132013)"
+    },
+    {
+        "id": 60,
+        "prompt": "I am trying to create an economic management book on the impact of AI technology development on the content industry and how to prepare, plan, and actually apply AI technology, apps, and tools that can be used depending on the type of content from the perspective of companies and individuals. Please provide a table of contents for the 50-listed book and a brief description of each table of contents.\nAnswer in English."
+    },
+    {
+        "id": 61,
+        "prompt": "How can observing the behavior of other people in a social situation provide clues about cultural norms and expectations?"
+    },
+    {
+        "id": 62,
+        "prompt": "Assume a role of master psychologist. \nImagine you were transported into 1919 Germany with a purpose of changing Adolph Hitler's views on politics and life. You only can use words and your own knowledge. You cannot expose the fact of time travel.\nHow do you approach such task?"
+    },
+    {
+        "id": 63,
+        "prompt": "A job description is a document that clearly states the requirements, duties, responsibilities, and skills required to perform a specific role. You need to write a job description based on the given information. You should describe responsibilities and duties in your job description in a logical order. Remember that potential employees often get their first impression of your company from your job description. So, the job description should convey the attractiveness of your company.\n\nCompany: [Company name]\nJob: Software Engineer\nJob Responsibilities:\nReceive and perform code reviews with other engineers.\nWrite unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest.\nWork collaboratively with fellow software engineers to build features requested by business stakeholders.\nParticipate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.\nDiagnose, debug, and perform root cause analysis of issues and defects.\nSkills and experience that will lead to success:\nExperience with a modern software programming language. We use Python, and Pyspark extensively.\nExperience with cloud systems like AWS or Azure\nExperience writing SQL queries \nStrong written and verbal communication skills\nEagerness to work in a highly-collaborative environment\nSome visualization experience such as Tableau or PowerBI is helpful"
+    },
+    {
+        "id": 64,
+        "prompt": "What if the Suez Canal had never been constructed?"
+    },
+    {
+        "id": 65,
+        "prompt": "Give me an idea of the mental exercises you do to inspire yourself."
+    },
+    {
+        "id": 66,
+        "prompt": "What are some  good books to buy for a sci fi fan?"
+    },
+    {
+        "id": 67,
+        "prompt": "How would a basic project in PyGame look like? I'd like the example to include keyboard event handling so that pressing ESC will quit the game and also print the FPS counter in the left top corner of the window."
+    },
+    {
+        "id": 68,
+        "prompt": "In what genres does the given movie or series fall?\n\nManifest"
+    },
+    {
+        "id": 69,
+        "prompt": "Write a to-do list based on the given information.\n\nDaily tasks in the pharmacy"
+    },
+    {
+        "id": 70,
+        "prompt": "I have competencies in remote sensing, machine learning, and water resource knowledge, what are the possible jobs I can occupy? What are the possible projects I can do? What companies I can work at?"
+    },
+    {
+        "id": 71,
+        "prompt": "Simplify \"Most of the basic functions of current virtualization software are inherited from this early VM OS. The virtualization software is now represented with the term hypervisor. Hardware virtualization is used to share the resources of the cloud providers effectively with the customers by generating an illusion of dedicated computing, storage, and networking on a computing infrastructure.<br><br>The concept of virtualization is physically implemented using the hypervisor modules, and the operation and processing of hypervisors are materialized by the OSS. In other words, hypervisor modules are installed on top of OSS, which act as an interface between hardware units and hypervisor packages.\""
+    },
+    {
+        "id": 72,
+        "prompt": "How can I develop my critical thinking skills?"
+    },
+    {
+        "id": 73,
+        "prompt": "Based on the facts that have been provided, prove the following statement.\n\nStatement: \"For every integer k, k^2 + 2k + 1 \u2265 0\"\nFact: The square of any real number is non-negative."
+    },
+    {
+        "id": 74,
+        "prompt": "You need to come up with the names of some of the papers that relate to the paper you are given.\n\nRoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering"
+    },
+    {
+        "id": 75,
+        "prompt": "Take the product description and write a creative ad for it.\n\nDocument Cameras allow teachers to display documents, books, or other materials for their students to see."
+    },
+    {
+        "id": 76,
+        "prompt": "Digital transformation project plan example"
+    },
+    {
+        "id": 77,
+        "prompt": "Give me a sample 5 day itienary for a switzerland holiday, starting from Basel"
+    },
+    {
+        "id": 78,
+        "prompt": "Given a programming language and the name of a function, write a command to show how to use the function.\n\nLanguage: Python\nFunction: input"
+    },
+    {
+        "id": 79,
+        "prompt": "Who was the first lead vocal for the rock band Starship?"
+    },
+    {
+        "id": 80,
+        "prompt": "Why can't bank use cash as capital as a buffer for potential losses?"
+    },
+    {
+        "id": 81,
+        "prompt": "Explain the difference between sets and lists in Python."
+    },
+    {
+        "id": 82,
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Israeli dishes. Can you give me a recipe Israeli Cheese Bourekas?"
+    },
+    {
+        "id": 83,
+        "prompt": "How many snowflakes fall during a typical winter? Try to explain your answer. Your explanation should take the reader through your reasoning step-by-step."
+    },
+    {
+        "id": 84,
+        "prompt": "Can you please provide me the names of the two players in the atomic bomb game (in go)? \n\nIf you can get me the referee's name as well, that's even better!"
+    },
+    {
+        "id": 85,
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Danish dishes. Can you give me a recipe for Koldsk\u00e5l?"
+    },
+    {
+        "id": 86,
+        "prompt": "Expand the given sentence and give it more details and depth.\n\nIt changed my life."
+    },
+    {
+        "id": 87,
+        "prompt": "Create an Annotated Bibliography, in APA citation style, with six entries describing a different social media technology in each of the following six categories: blogs, social networking sites, virtual social worlds, virtual game worlds, collaborative projects, content communities."
+    },
+    {
+        "id": 88,
+        "prompt": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation.\n\nPerson 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!"
+    },
+    {
+        "id": 89,
+        "prompt": "Come up with some search queries on google about coding stuff."
+    },
+    {
+        "id": 90,
+        "prompt": "Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda."
+    },
+    {
+        "id": 91,
+        "prompt": "How can you write a first person controller script in GDscript and apply it to a KinematicBody-node when using Godot Engine 3.x and what is the equivalent to the KinematicBody-node in Godot Engine 4.x and how does the first person controller script need to be changed to work in Godot Engine 4.x?"
+    },
+    {
+        "id": 92,
+        "prompt": "In a world where automation is becoming increasingly prevalent, is it more important to prioritize job creation or technological progress?"
+    },
+    {
+        "id": 93,
+        "prompt": "Improve the article using your knowledge of the topic in order to make it more informative.\n\nThe \"fair trade\" movement, also known as the \"trade justice\" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. Such ideas have also sparked a debate on whether trade itself should be codified as a human right."
+    },
+    {
+        "id": 94,
+        "prompt": "List the layers of the TCP/IP model and for each layer identify one protocol."
+    },
+    {
+        "id": 95,
+        "prompt": "Are there any AI tools out there for 2D animation?"
+    },
+    {
+        "id": 96,
+        "prompt": "How do I detail a car?"
+    },
+    {
+        "id": 97,
+        "prompt": "You are given a programming problem and its implementation. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem.\n\nTable: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;"
+    },
+    {
+        "id": 98,
+        "prompt": "As a pirate captain, what would you say to your crew to motivate them to search for hidden treasure?"
+    },
+    {
+        "id": 99,
+        "prompt": "does the dinosaurs really exist?"
+    }
+]

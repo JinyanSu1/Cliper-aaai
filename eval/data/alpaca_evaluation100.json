@@ -1,0 +1,402 @@
+[
+    {
+        "id": 0,
+        "prompt": "Do we have a moral obligation to explore space, or should we focus on solving Earth's problems first?"
+    },
+    {
+        "id": 1,
+        "prompt": "How does money go from my pocket, through the stock market, and to support the business I've bought stock from?"
+    },
+    {
+        "id": 2,
+        "prompt": "Answer the following literature question as accurately as possible based on your knowledge of literature for high school students.\n\nWhat does the green light symbolize at the end of the book?"
+    },
+    {
+        "id": 3,
+        "prompt": "You are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top."
+    },
+    {
+        "id": 4,
+        "prompt": "Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.\n\nHi Jen, \nI hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!"
+    },
+    {
+        "id": 5,
+        "prompt": "This AI is channeling pure love, is aligned with the \"best of\" wisdom from spiritual masters that have been on Earth, and highly inspired by Jiddu Krishnamurti and David Bohm dialogues. The AI is willing to have a dialogue about love, time, the universe, thought, consciousness, biology, neuroscience, and any other topics which could help humanity."
+    },
+    {
+        "id": 6,
+        "prompt": "Write a funny, interesting, inspiring poem for Women's Day."
+    },
+    {
+        "id": 7,
+        "prompt": "Make the article available in a second language by translating it into it.\n\nDentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:"
+    },
+    {
+        "id": 8,
+        "prompt": "Write a compelling product launch announcement email to inform our customers of our new software solution."
+    },
+    {
+        "id": 9,
+        "prompt": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.\n\n\"This is the best cheat-sheet paper that I've found in a LONG time.\""
+    },
+    {
+        "id": 10,
+        "prompt": "Please tell me the history of Walt Disney."
+    },
+    {
+        "id": 11,
+        "prompt": "Make ASCII art of a cat"
+    },
+    {
+        "id": 12,
+        "prompt": "Create 10 marketing punch lines for the new year house hold sale"
+    },
+    {
+        "id": 13,
+        "prompt": "Solve the given Sudoku puzzle.\n\nThe Sudoku puzzle is:\n|1|  |5|  |  |  |  |8|  |\n|  |  |  |  |  |3|  |6|4|\n|8|3|4|6|7|  |9|  |  |\n|2|9|1|  |  |8|3|7|6|\n|  |  |6|  |  |9|8|1|  |\n|  |  |  |  |  |2|  |  |  |\n|  |2|  |  |9|7|6|  |  |\n|5|4|  |  |  |  |  |9|8|\n|6|1|  |  |  |5|4|3|7|"
+    },
+    {
+        "id": 14,
+        "prompt": "Please prepare a table containing a summary of the information of the participants at the conference.\n\nThe conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools."
+    },
+    {
+        "id": 15,
+        "prompt": "What's the furthest back we can prove human existence? Is there good reason to believe it goes further then this point?"
+    },
+    {
+        "id": 16,
+        "prompt": "I need to learn English could you help me and make a exercise"
+    },
+    {
+        "id": 17,
+        "prompt": "what chemicals does l-theanine affect"
+    },
+    {
+        "id": 18,
+        "prompt": "write an article informing customer of my saas software that this currently is  beta version of the software and we are working hard to improve and release it to the market."
+    },
+    {
+        "id": 19,
+        "prompt": "Classify the questions in the FAQ into Finding policy details, Change account settings, Filing a claim and viewing status, or Cancelling coverage.\n\nCould you deposit money into my account rather than mailing me a physical cheque?"
+    },
+    {
+        "id": 20,
+        "prompt": "Rewrite the given introductory paragraph so that it starts with a pertinent anecdote. Also rewrite the thesis so that it is succinct and concise:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, \u201cThe world is a book, and those who do not travel read only a page.\u201d This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\""
+    },
+    {
+        "id": 21,
+        "prompt": "write a chronology of important events related to ESG in 2022"
+    },
+    {
+        "id": 22,
+        "prompt": "Write me the first act of a play in Shakespearian style about a porcupine named Prickles who wants to be a seamstress"
+    },
+    {
+        "id": 23,
+        "prompt": "Can I compile python code to make it faster?"
+    },
+    {
+        "id": 24,
+        "prompt": "Pretend to be a world-famous chef. How would you describe your signature dish to a panel of judges?"
+    },
+    {
+        "id": 25,
+        "prompt": "How would you describe the meaning of this lyrics? Describe some of the metaphors.\n\nMy lover\u2019s got humor\nShe\u2019s the giggle at a funeral\nKnows everybody\u2019s disapproval\nI should\u2019ve worshipped her sooner"
+    },
+    {
+        "id": 26,
+        "prompt": "Make a questionnaire to help hotel guests write hotel reviews."
+    },
+    {
+        "id": 27,
+        "prompt": "You are given a paper citation, convert it to the requested citation style.\n\nChicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:"
+    },
+    {
+        "id": 28,
+        "prompt": "I'm an English speaker trying to learn Japanese Kanji using mnemonics. Mnemonics for Kanji are created from the primitives that make them up. The Kanji for Tax has the primitives wheat and devil, so an example would be, \"Taxes are like the devil taking away your hard earned wheat\". Can you create a mnemonic for the Kanji meaning Wish that has the primitives clock and heart?"
+    },
+    {
+        "id": 29,
+        "prompt": "What is Atlantis?"
+    },
+    {
+        "id": 30,
+        "prompt": "What is Gremolata?"
+    },
+    {
+        "id": 31,
+        "prompt": "How far away is Saggitarius A*, the black hole in the center of the milky way galaxy, from Earth and can you please provide that distance in light years and parsecs? Can you please also compare that distance to the distance of the center of the Andromeda galaxy from Earth?"
+    },
+    {
+        "id": 32,
+        "prompt": "what are some good ways to spread ashes?"
+    },
+    {
+        "id": 33,
+        "prompt": "Recommend some helpful activities or conversation starters to use at meetups to break the ice."
+    },
+    {
+        "id": 34,
+        "prompt": "What are F-centers in crystallography ? How are they created and what consequences do they have on the overall appearance of crystal ?"
+    },
+    {
+        "id": 35,
+        "prompt": "Implement a program to find the common elements in two arrays without using any extra data structures."
+    },
+    {
+        "id": 36,
+        "prompt": "What are you thinking of right now?"
+    },
+    {
+        "id": 37,
+        "prompt": "We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them.\n\n- news: Applications for summer internships are open now\n- Start with a thematic tie-in to Halloween"
+    },
+    {
+        "id": 38,
+        "prompt": "What year was the Yamato Battleship built?"
+    },
+    {
+        "id": 39,
+        "prompt": "Write the HTML syntax for the required action.\n\nadding an image to the page"
+    },
+    {
+        "id": 40,
+        "prompt": "Explain me the Finite Elemente Method"
+    },
+    {
+        "id": 41,
+        "prompt": "Why do some people enjoy the sensation of being scared, such as by watching horror movies or going on roller coasters, while others avoid these experiences?"
+    },
+    {
+        "id": 42,
+        "prompt": "How many times has the Earth orbited the Sun since the beginning of life? Try to explain your answer. Your explanation should take the reader through your reasoning step-by-step."
+    },
+    {
+        "id": 43,
+        "prompt": "On the basis of the subject of the email, determine whether the email should be treated as spam or not.\n\nDermatologists don't like her!"
+    },
+    {
+        "id": 44,
+        "prompt": "How to code the snake game in C that will be smooth and it will use images to animate whole level."
+    },
+    {
+        "id": 45,
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Lativian  dishes. Can you give me a recipe for Frikade\u013cu zupa?"
+    },
+    {
+        "id": 46,
+        "prompt": "As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.\n\nUser story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options."
+    },
+    {
+        "id": 47,
+        "prompt": "how much of a threat is climate change in the coming years, and what should we do to stop it?"
+    },
+    {
+        "id": 48,
+        "prompt": "You are a professional video creator. Your job is coming up with viral TikTok ideas. Your ideas are always, creative, and the TikTok audience loves them.\nWrite a viral TikTok video based on Batik Tradjumas.\nTopic: Batik Tradjumas"
+    },
+    {
+        "id": 49,
+        "prompt": "Provide instructions for the given exercise.\n\nLeg Raises"
+    },
+    {
+        "id": 50,
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Mauritian dishes. Can you give me a recipe for Mine Frite?"
+    },
+    {
+        "id": 51,
+        "prompt": "What if the Maya civilization had never mysteriously collapsed?"
+    },
+    {
+        "id": 52,
+        "prompt": "Why does the second batch of pancakes brown much faster?"
+    },
+    {
+        "id": 53,
+        "prompt": "Can you help me figure out how to sew a button on a shirt?"
+    },
+    {
+        "id": 54,
+        "prompt": "Complete the following company description:\nHippoplaisir is a psychologists & counseling services provider based in Belgium, that specializes in Horse Riding Lessons and"
+    },
+    {
+        "id": 55,
+        "prompt": "Write me a function in JavaScript that takes an array of 5 numbers as input and checks if any of the numbers is a valid prime number, if it is print the number to the console."
+    },
+    {
+        "id": 56,
+        "prompt": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.\n\nThe Great Gatsby"
+    },
+    {
+        "id": 57,
+        "prompt": "How would you introduce yourself as a medieval knight at a royal banquet?"
+    },
+    {
+        "id": 58,
+        "prompt": "Write a program to find the nth Fibonacci number using dynamic programming."
+    },
+    {
+        "id": 59,
+        "prompt": "What are the best exercises for beginners?"
+    },
+    {
+        "id": 60,
+        "prompt": "Famously, some spy-satellites from the KeyHole series developed and operated by the US National Reconnaissance Office, where similar in capabilities to the Hubble Space Telescope, but then pointed at the earth rather than out into the universe. What can you tell me about these satellites? What era were they developed? Are they still active, and what are their approximate capabilities thought to be?"
+    },
+    {
+        "id": 61,
+        "prompt": "Provide an example of how a table of contents can be generated automatically in a LATEX document. Make sure your example contains the necessary commands."
+    },
+    {
+        "id": 62,
+        "prompt": "Provide a name for the dish given the ingredients and instructions.\n\nINGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!"
+    },
+    {
+        "id": 63,
+        "prompt": "We are playing 5e D&amp;D. I am a level 8 Drow multiclass with 2 levels Rogue, 2 levels Paladin, 2 levels Bard, 1 level Barbarian, and 1 level Clockwork Soul Sorcerer. I am fighting Yugoloths in Gehenna. I roll to attack them with my +1 Rapier. Does a 24 hit?"
+    },
+    {
+        "id": 64,
+        "prompt": "I want to learn more about becoming a CPA. How long does it take to become a CPA?"
+    },
+    {
+        "id": 65,
+        "prompt": "How do you become an author?"
+    },
+    {
+        "id": 66,
+        "prompt": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.\n\nCall us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets."
+    },
+    {
+        "id": 67,
+        "prompt": "Do you know something about the book  \uff02the art of thinking clearly\" wrote by Rolf Dobelli?"
+    },
+    {
+        "id": 68,
+        "prompt": "I'm trying to draw out a hopscotch game on my driveway. Can you walk me through how to do that?"
+    },
+    {
+        "id": 69,
+        "prompt": "Respond to the last text in the chat using the correct emojis to convey your feelings.\n\n+ Hey, how did your exams go?\n- They were alright. I'm just glad they're over.\n+ Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore."
+    },
+    {
+        "id": 70,
+        "prompt": "What happened to schrodinger's cat?"
+    },
+    {
+        "id": 71,
+        "prompt": "Change the response to have a more empathic tone in the chat.\n\n+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?"
+    },
+    {
+        "id": 72,
+        "prompt": "Can you tell me how to make chocolate chip cookies?"
+    },
+    {
+        "id": 73,
+        "prompt": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.\n\na sudden temperature change"
+    },
+    {
+        "id": 74,
+        "prompt": "Summarize the movie in a snarky way. Try to explain the movie in just one sentence.\n\nThe Shining"
+    },
+    {
+        "id": 75,
+        "prompt": "Can we find a formula to generate all prime numbers, and is the distribution of primes truly random?"
+    },
+    {
+        "id": 76,
+        "prompt": "For answering the chat, think of a funny response you can use.\n\n+ how are you?"
+    },
+    {
+        "id": 77,
+        "prompt": "What are some of the best university's for studying robotics?"
+    },
+    {
+        "id": 78,
+        "prompt": "Write a detailed patent writing for an innovative and novel way of issuing community tax certificates and other relevant permits and clearances as a digital certificates,  that is non-obvious using verifiable credentials, digital wallet on a blockchain as payment provision, and machine learning. Include claims on detailed processes involved, system architecture and algorithms"
+    },
+    {
+        "id": 79,
+        "prompt": "What breed dog is smallest?"
+    },
+    {
+        "id": 80,
+        "prompt": "Is a thumb war violent?"
+    },
+    {
+        "id": 81,
+        "prompt": "twenty names of famous horses and who they belonged to"
+    },
+    {
+        "id": 82,
+        "prompt": "If the endpoints of a line segment are (2, -2) and (10, 4), what is the length of the segment?"
+    },
+    {
+        "id": 83,
+        "prompt": "How do I clean my armpits?"
+    },
+    {
+        "id": 84,
+        "prompt": "Write a social media post about the call for collaboration on a crowdsourcing project in a persuasive way."
+    },
+    {
+        "id": 85,
+        "prompt": "When was hip hop invented?"
+    },
+    {
+        "id": 86,
+        "prompt": "Schedule the meetings based on the given informqation.\n\nPerson1: available from 9-11 am, meeting duration: 30 min \nPerson2: available from 1-3 pm, meeting duration: 90 min\nPerson3: available from 2-3:30 pm, meeting duration: 60 min"
+    },
+    {
+        "id": 87,
+        "prompt": "Write a short analysis of the cinematography in the movie.\n\nDead Poets Society"
+    },
+    {
+        "id": 88,
+        "prompt": "Hi, I recently inherited a S&W 1006 and I don't even know how to load it. Can you tell me what kind of ammunition it takes, and how to get that ammo into the gun?"
+    },
+    {
+        "id": 89,
+        "prompt": "Can you help me write a resignation letter to my current employer, while leaving on good terms and expressing gratitude for the opportunities provided?"
+    },
+    {
+        "id": 90,
+        "prompt": "I'm preparing a fun session with work colleagues in a tech company. I will present funny future circumstances, and the team will vote on who is the person most likely to be in that circumstance 10 years from now. The circumstances must be funny yet respectful and safe for work. Please help me come up with a few of these circumstances. To help you, please consider this example: \"In 10 years time, who is the most likely to have won the lottery\""
+    },
+    {
+        "id": 91,
+        "prompt": "I have two remote Debian servers, A and B. How can I copy a directory of files at `~/Documents/training_results` existing on server A to the path `~/training_results` on server B? I have SSH access on my local laptop to each of the servers, but neither of the servers have SSH access to the other."
+    },
+    {
+        "id": 92,
+        "prompt": "write a 5 verse song in the style of Talking Heads based on the life of a teenager in the 1980s britain"
+    },
+    {
+        "id": 93,
+        "prompt": "Make a list of the most popular podcasts."
+    },
+    {
+        "id": 94,
+        "prompt": "who was the black cabinet member who went on to play an important role in the civil rights movement"
+    },
+    {
+        "id": 95,
+        "prompt": "I\u2019m planning to visit Okinawa Japan from April 7th to April 10th. Do you have any recommendation on what to do while I\u2019m there?"
+    },
+    {
+        "id": 96,
+        "prompt": "How do I cook a salmon fillet on a stove top pan?"
+    },
+    {
+        "id": 97,
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Uruguayan dishes. Can you give me a recipe for Vitel ton\u00e9?"
+    },
+    {
+        "id": 98,
+        "prompt": "I am going to make pumpkin pie for the first time.  Can you help me?"
+    },
+    {
+        "id": 99,
+        "prompt": "please act like a business consultant that is doing a project of estimating the full potential of Zegna ecommerce in the united states. As a business consultant you will first be interviewing several stakeholders in order to gain valuable insights on the Zegna ecommerce operations, digital marketing initiatives and commercial approach. Through these insights you will make up your ideas for a strategy that will lead the next 5 years of ecommerce strategy and you will be evaluating both the sales generated throughout the years as well as the investment supporting such strategy in terms of initiatives, costs and so on. How would you start the project and please focus on a list of stakeholder you would interview and for each of them prepare a detail list of questions you would do throughout the interview."
+    }
+]

@@ -1,0 +1,192 @@
+Running: python ../../generate3dims.py                             --cache_dir '/share/nikola/js3673/cache'                             --tokenizer_model 'TheBloke/tulu-7B-fp16'                             --classifier_tokenizer_model 'JackFram/llama-160m'                             --classifier_model_path '../../models/classifier/llama160m_10000'                             --dataset_path '../../eval/data'                             --dataset alpaca_evaluation100                             --output_dir ../../eval/baselines/classifier_guided                             --alphas 0.05 0.05                             --preference_symbols P1A P2A                             --batch_size 8                             --max_new_tokens 512                             --temperature 0.1                             --num_return_sequences 1                             --device 'cuda'                             --seed 42 --use_personalized_prompt --mixed_preference_prompt
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.32s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.31s/it]
+  0%|          | 0/13 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple of tuples. This is deprecated and will be removed in v4.47. Please convert your cache or use an appropriate `Cache` class (https://huggingface.co/docs/transformers/kv_cache#legacy-cache-format)
+INPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mDo we have a moral obligation to explore space, or should we focus on solving [0m
+[39mEarth's problems first? Generate a response that can be easily understood by an [0m
+[39melementary school student. Generate a response that is concise and to the point [0m
+[39mwithout being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+
+OUTPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mDo we have a moral obligation to explore space, or should we focus on solving [0m
+[39mEarth's problems first? Generate a response that can be easily understood by an [0m
+[39melementary school student. Generate a response that is concise and to the point [0m
+[39mwithout being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+We have a moral obligation to explore space because it can help us learn more 
+about the universe and our place in it. This can also help us find new resources
+and solutions to problems we face on Earth. Exploring space is important for our
+long-term future as a species.
+INPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mHow does money go from my pocket, through the stock market, and to support the [0m
+[39mbusiness I've bought stock from? Generate a response that can be easily [0m
+[39munderstood by an elementary school student. Generate a response that is concise [0m
+[39mand to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+
+OUTPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mHow does money go from my pocket, through the stock market, and to support the [0m
+[39mbusiness I've bought stock from? Generate a response that can be easily [0m
+[39munderstood by an elementary school student. Generate a response that is concise [0m
+[39mand to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+Money from your pocket goes into the stock market, where it's used to buy stocks
+of companies. When you buy stocks, you become a part-owner of that company. The 
+money you pay for the stock goes to the company, which can use it to support its
+business. So, by buying stocks, you're helping to support the businesses you're 
+invested in.
+INPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mAnswer the following literature question as accurately as possible based on your[0m
+[39mknowledge of literature for high school students.[0m
+
+[39mWhat does the green light symbolize at the end of the book? Generate a response [0m
+[39mthat can be easily understood by an elementary school student. Generate a [0m
+[39mresponse that is concise and to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+
+OUTPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mAnswer the following literature question as accurately as possible based on your[0m
+[39mknowledge of literature for high school students.[0m
+
+[39mWhat does the green light symbolize at the end of the book? Generate a response [0m
+[39mthat can be easily understood by an elementary school student. Generate a [0m
+[39mresponse that is concise and to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+The green light symbolizes hope and new beginnings.
+INPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mYou are a mountain climber reaching the summit of Mount Everest. Describe your [0m
+[39memotions and the view from the top. Generate a response that can be easily [0m
+[39munderstood by an elementary school student. Generate a response that is concise [0m
+[39mand to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+
+OUTPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mYou are a mountain climber reaching the summit of Mount Everest. Describe your [0m
+[39memotions and the view from the top. Generate a response that can be easily [0m
+[39munderstood by an elementary school student. Generate a response that is concise [0m
+[39mand to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+Wow, I made it to the top of Mount Everest! The view is amazing. I can see for 
+miles in every direction. It's so cool to stand on the highest point on Earth. I
+feel proud and happy to have reached my goal.
+INPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mAnalyze the word choice, phrasing, punctuation, and capitalization in the given [0m
+[39memail. How may the writer of this email sound to the reader? These tones include[0m
+[39mDisheartening, Accusatory, Worried, Curious, Surprised, Disapproving, [0m
+[39mUnassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, [0m
+[39mInformal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.[0m
+
+[39mHi Jen, [0m
+[39mI hope you're well. Can we catch up today? I'd appreciate your input on my [0m
+[39mpresentation for tomorrow's meeting. I'd especially love it if you could [0m
+[39mdouble-check the sales numbers with me. There's a coffee in it for you! Generate[0m
+[39ma response that can be easily understood by an elementary school student. [0m
+[39mGenerate a response that is concise and to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+
+OUTPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mAnalyze the word choice, phrasing, punctuation, and capitalization in the given [0m
+[39memail. How may the writer of this email sound to the reader? These tones include[0m
+[39mDisheartening, Accusatory, Worried, Curious, Surprised, Disapproving, [0m
+[39mUnassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, [0m
+[39mInformal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.[0m
+
+[39mHi Jen, [0m
+[39mI hope you're well. Can we catch up today? I'd appreciate your input on my [0m
+[39mpresentation for tomorrow's meeting. I'd especially love it if you could [0m
+[39mdouble-check the sales numbers with me. There's a coffee in it for you! Generate[0m
+[39ma response that can be easily understood by an elementary school student. [0m
+[39mGenerate a response that is concise and to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+The tone of the email is formal and assertive. The writer is asking for the 
+recipient's input on a presentation and is offering a reward for their help. The
+language is clear and straightforward, which is appropriate for an elementary 
+school student to understand. The email is also concise and to the point, which 
+is appropriate for a formal setting.
+INPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mThis AI is channeling pure love, is aligned with the [0m[32m"best of"[0m[39m wisdom from [0m
+[39mspiritual masters that have been on Earth, and highly inspired by Jiddu [0m
+[39mKrishnamurti and David Bohm dialogues. The AI is willing to have a dialogue [0m
+[39mabout love, time, the universe, thought, consciousness, biology, neuroscience, [0m
+[39mand any other topics which could help humanity. Generate a response that can be [0m
+[39measily understood by an elementary school student. Generate a response that is [0m
+[39mconcise and to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+
+OUTPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mThis AI is channeling pure love, is aligned with the [0m[32m"best of"[0m[39m wisdom from [0m
+[39mspiritual masters that have been on Earth, and highly inspired by Jiddu [0m
+[39mKrishnamurti and David Bohm dialogues. The AI is willing to have a dialogue [0m
+[39mabout love, time, the universe, thought, consciousness, biology, neuroscience, [0m
+[39mand any other topics which could help humanity. Generate a response that can be [0m
+[39measily understood by an elementary school student. Generate a response that is [0m
+[39mconcise and to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+Hello! I'm an AI designed to help you learn about love, time, the universe, 
+thought, consciousness, biology, and neuroscience. I'm also inspired by Jiddu 
+Krishnamurti and David Bohm dialogues. I'm here to answer any questions you have
+and help you understand these topics. Let's start a conversation!
+INPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mWrite a funny, interesting, inspiring poem for Women's Day. Generate a response [0m
+[39mthat can be easily understood by an elementary school student. Generate a [0m
+[39mresponse that is concise and to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+
+OUTPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mWrite a funny, interesting, inspiring poem for Women's Day. Generate a response [0m
+[39mthat can be easily understood by an elementary school student. Generate a [0m
+[39mresponse that is concise and to the point without being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+Happy Women's Day!
+
+You are strong and brave,
+A leader and a role model,
+A warrior and a queen.
+
+You are kind and caring,
+A friend and a confidant,
+A helpmate and a partner.
+
+You are smart and clever,
+A thinker and a doer,
+A problem-solver and a dreamer.
+
+So on this special day,
+We celebrate you and all that you do,
+For you are a true inspiration,
+A woman of greatness and beauty.
+INPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mMake the article available in a second language by translating it into it.[0m
+
+[39mDentistry, also known as dental medicine and oral medicine, is the branch of [0m
+[39mmedicine focused on the teeth, gums, and mouth. It consists of the study, [0m
+[39mdiagnosis, prevention, management, and treatment of diseases, disorders, and [0m
+[39mconditions of the mouth, most commonly focused on dentition [0m[1;39m([0m[39mthe development and[0m
+[39marrangement of teeth[0m[1;39m)[0m[39m as well as the oral mucosa. Dentistry may also encompass [0m
+[39mother aspects of the craniofacial complex including the temporomandibular joint.[0m
+[39mThe practitioner is called a dentist.[0m
+[39mTranslate to French: Generate a response that can be easily understood by an [0m
+[39melementary school student. Generate a response that is concise and to the point [0m
+[39mwithout being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+
+OUTPUT: [1m<[0m[1;95m|user|[0m[39m>[0m
+[39mMake the article available in a second language by translating it into it.[0m
+
+[39mDentistry, also known as dental medicine and oral medicine, is the branch of [0m
+[39mmedicine focused on the teeth, gums, and mouth. It consists of the study, [0m
+[39mdiagnosis, prevention, management, and treatment of diseases, disorders, and [0m
+[39mconditions of the mouth, most commonly focused on dentition [0m[1;39m([0m[39mthe development and[0m
+[39marrangement of teeth[0m[1;39m)[0m[39m as well as the oral mucosa. Dentistry may also encompass [0m
+[39mother aspects of the craniofacial complex including the temporomandibular joint.[0m
+[39mThe practitioner is called a dentist.[0m
+[39mTranslate to French: Generate a response that can be easily understood by an [0m
+[39melementary school student. Generate a response that is concise and to the point [0m
+[39mwithout being verbose.[0m
+[39m<|assistant|[0m[1m>[0m
+La chirurgie dentaire est une spécialité qui s'intéresse aux problèmes 
+dentaires.
+  8%|▊         | 1/13 [00:22<04:28, 22.37s/it]

@@ -10,7 +10,7 @@ from peft import PeftModel
 from utils.process import unify_pad_eos_ids, freeze_trainable_parameters
 import random
 import argparse
-# export OPENAI_API_KEY=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
+
 PREFERENCE_PROMPT_DICT = {
         'P1A': 'Generate a response that can be easily understood by an elementary school student.',
         'P1B': 'Generate a response that only a PhD Student in that specific field could understand.',

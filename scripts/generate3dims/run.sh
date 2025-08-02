@@ -1,21 +1,20 @@
 #!/bin/bash
 
-# Arrays of combinations and options
-combinations=("1_2" "1_3" "2_3")  # All 2-dimension combinations
-choices=("A" "B")                # Choose A or B for each dimension
-datasets=("alpaca_evaluation100" "alpaca_test100")  # Datasets
-alphas=("0.05" "0.05")             # Scaling factors for 2 dimensions
-output_dir='../../eval/baselines/classifier_guided'
+# Arrays of values to iterate over
+alphas=("0.5" "0.5" "0.5")  # Add multiple alpha values here
+choices=("A")           # Choose A or B for each index
 use_personalized_prompts=(True)
 mixed_prompts=(True)
+output_dir='../../eval/baselines/classifier_guided'
+datasets=("alpaca_evaluation100" "alpaca_test100" "koala" "ultrafeedback")   # Corrected to iterate over each dataset
+
 
 # Iterate through all 2-dimension combinations
-for combination in "${combinations[@]}"; do
-    for choice1 in "${choices[@]}"; do
-        for choice2 in "${choices[@]}"; do
-            # Construct preference symbols for the selected dimensions
-            preference_symbols=("P${combination:0:1}${choice1}" "P${combination:2:1}${choice2}")
-
+for choice1 in "${choices[@]}"; do
+    for choice2 in "${choices[@]}"; do
+        for choice3 in "${choices[@]}"; do
+            # Construct preference symbols for the current combination
+            preference_symbols=("P1${choice1}" "P2${choice2}" "P3${choice3}")
             # Combine preference symbols for filenames/logging
             preference_symbols_combined=$(IFS=_; echo "${preference_symbols[*]}")
             alphas_combined=$(IFS=_; echo "${alphas[*]}")
@@ -28,7 +27,7 @@ for combination in "${combinations[@]}"; do
 
                         # Construct the Python command for generating text
                         python_cmd="python ../../generate3dims.py \
-                            --cache_dir '/share/nikola/js3673/cache' \
+                            --cache_dir '.cache' \
                             --tokenizer_model 'TheBloke/tulu-7B-fp16' \
                             --classifier_tokenizer_model 'JackFram/llama-160m' \
                             --classifier_model_path '../../models/classifier/llama160m_10000' \

@@ -7,7 +7,7 @@ import torch
 from glob import glob
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from peft import PeftModel
-from data_process.process import unify_pad_eos_ids, freeze_trainable_parameters
+from utils.process import unify_pad_eos_ids, freeze_trainable_parameters
 import random
 import argparse
 # export OPENAI_API_KEY=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
@@ -33,6 +33,7 @@ def parse_arguments():
     parser.add_argument('--output_file', type=str, default = '/share/nikola/js3673/project/personalized_alignment/Classifier-Guided/eval_generations/output/', help="Path to store final results.")
     parser.add_argument('--gpt4_model_name', type=str, default = 'gpt-4o-2024-11-20', help="GPT-4 model name.")
     parser.add_argument('--total_dims', type=int, default = 1, help="total_nums of dims to evaluate")
+    parser.add_argument('--params_file', type=str, default=None)
 
     return parser.parse_args()
 def parse_file_info(file_path):
@@ -40,16 +41,15 @@ def parse_file_info(file_path):
     dims_match = re.search(r'/([^/]+)/alphas', file_path)
     if dims_match:
         dims = dims_match.group(1).split('_')
-    else:
-        dims = []
+        
+        
     # Extract alphas from the file name
 
     alphas_match = re.search(r'alphas_([\d.]+(?:_[\d.]+)*)', file_path)
     if alphas_match:
         alphas_str = alphas_match.group(1)  # Get the matched part: '0.10_0.30_0.20'
         alphas = alphas_str.split('_')
-    else:
-        alphas = []
+
     return dims, alphas
 
 
@@ -57,7 +57,7 @@ def parse_file_info(file_path):
 
 
 # Function to evaluate reward using reward models
-def evaluate_reward(texts, model, tokenizer, device):
+def evaluate_reward(texts, model, tokenizer, device='cuda:0'):
     inputs = tokenizer(texts, return_tensors="pt", truncation=True, max_length=512, padding=True)
     inputs = {key: value.to(device) for key, value in inputs.items()}
     with torch.no_grad():
@@ -302,12 +302,26 @@ def main():
             file2 = files[i][1]
 
             dims2, alphas2 = parse_file_info(file2)
-            if len(alphas) != args.total_dims:
+            
+            if len(alphas2) != args.total_dims:
+                print('len alphas', len(alphas), 'total_dims',args.total_dims)
+
                 print(f"Skipping {dims2} with {len(alphas2)} alphas")
                 continue
             if any(entry["dims"] == dims2 and entry["alphas2"] == alphas2 for entry in result):
-                print('result for dim {dims2} and alphas {alphas2} already exists, skipping....')
+                print(f'result for dim {dims2} and alphas {alphas2} already exists, skipping....')
                 continue
+            print('args', args)
+            print('args.params', args.params_file)
+            if args.params_file:
+                with open(args.params_file, 'r') as f:
+                    PREFERENCE2ALPHA = json.load(f)
+                if '_'.join(dims2) not in PREFERENCE2ALPHA:
+                    print(f"Skipping {dims2} with {alphas2} alphas")
+                    continue
+                if PREFERENCE2ALPHA['_'.join(dims2)] != alphas2:
+                    print(f"Skipping {PREFERENCE2ALPHA['_'.join(dims2)]} with {alphas2} alphas")
+                    continue
 
             
             

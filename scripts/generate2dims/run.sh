@@ -3,8 +3,9 @@
 # Arrays of combinations and options
 combinations=("1_2" "1_3" "2_3")  # All 2-dimension combinations
 choices=("A" "B")                # Choose A or B for each dimension
-datasets=("alpaca_evaluation100" "alpaca_test100")  # Datasets
-alphas=("1" "1")             # Scaling factors for 2 dimensions
+# datasets=("alpaca_evaluation100" "alpaca_test100")  # Datasets
+datasets=("koala" "ultrafeedback")  # Datasets to evaluate on
+alphas=("0.1" "0.1")             # Scaling factors for 2 dimensions
 output_dir='../../eval/baselines/classifier_guided'
 use_personalized_prompts=(True)
 mixed_prompts=(True)
@@ -28,7 +29,7 @@ for combination in "${combinations[@]}"; do
 
                         # Construct the Python command for generating text
                         python_cmd="python ../../generate3dims.py \
-                            --cache_dir '/share/nikola/js3673/cache' \
+                            --cache_dir 'cache' \
                             --tokenizer_model 'TheBloke/tulu-7B-fp16' \
                             --classifier_tokenizer_model 'JackFram/llama-160m' \
                             --classifier_model_path '../../models/classifier/llama160m_10000' \

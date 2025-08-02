@@ -1,9 +1,9 @@
-# Toward Scalable LLM Personalization: Classifier-Guided Inference without Additional Fine-Tuning
+# CLIPer: Tailoring Diverse User Preference via Classifier-Guided Inference-Time Personalization
 
 ## Train the Guidance Model (Classifier)
 
 ### Prepare Data
-We use the Alpaca dataset (located at `./data/Train_classifier/raw/alpaca_gpt4_10k.json`) as our base dataset. To construct the training set for the classifier, follow these steps:
+We use the Alpaca dataset (located at `./classifier/data/raw/alpaca_gpt4_10k.json`) as our base dataset. To construct the training set for the classifier, follow these steps:
 
 #### Step 1: Generate Outputs for Each Preference Dimension
 Use the script below to generate outputs for each preference dimension:
@@ -19,7 +19,7 @@ for dimension in "${dimensions[@]}"; do
 done
 ```
 
-The generated data will be stored in the directory: `./data/Train_classifier/processed/raw_generation`
+The generated data will be stored in the directory: `./classifier/data/processed/raw_generation/`
 
 #### Step 2: Calculate Rewards for These Generations
 Run the following script to calculate rewards for the generated data:
@@ -45,8 +45,8 @@ import os
 import json
 
 # Define the input and output directories
-input_dir = '/share/nikola/js3673/project/personalized_alignment/Classifier-Guided/data/processed_data'
-output_dir = '/share/nikola/js3673/project/personalized_alignment/Classifier-Guided/data/processed_data_processed'
+input_dir = 'classifier/data/processed/rewarded'
+output_dir = 'classifier/data/processed/top1'
 
 # List of folders to process
 folders = ['P1A', 'P2A', 'P3A', 'P1B', 'P2B', 'P3B']
@@ -104,12 +104,11 @@ for folder in folders:
 
 </details>
 
-The final dataset for training the classifier is stored in: `./data/Train_classifier/processed/top1`
+The final dataset for training the classifier is stored in: `classifier/data/processed/top1`
 
-### Scripts and Reproducibility
 
-#### Generate Training Data
-We provide a bash script for Steps 1 and 2 in `./scripts/generate_training_data.sh`.
+
+
 
 #### Reproduce the Reward Matrix
 To reproduce the reward matrix, run:
@@ -123,7 +122,7 @@ for dimension in "${dimensions[@]}"; do
 done
 ```
 
-The resulting matrix is stored in: `./data/Train_classifier/correlation_matrix`
+The resulting matrix is stored in: `classifier/data/correlation_matrix`
 
 ---
 
@@ -132,64 +131,39 @@ The resulting matrix is stored in: `./data/Train_classifier/correlation_matrix`
 Run the following command to train the classifier:
 
 ```bash
-bash scripts/train_classifier.sh
+python -m classifier.train_classifier.py
 ```
 
 ---
 
 ## Generate Classifier-Guided Text for a Single Dimension
 
-Change to the appropriate directory and run:
+Example of using $\alpha=0.1$ 
 
 ```bash
 cd scripts/generate1dim/
 bash run.sh
 ```
 
-After running the script, you will get both the preference prompting and no-preference baseline outputs.
 
-#### Replicate No-Preference Baseline for Consistency
+## Generate Classifier-Guided Text for 2 Dimensions
 
-<details>
-<summary>Linux Script to Replicate No-Preference Baseline</summary>
+Example of using $\alpha_1=\alpha_2=0.1$ 
 
 ```bash
-#!/bin/bash
-
-# List of keys (directories to create)
-keys=("P1A" "P1B" "P2A" "P2B" "P3A" "P3B")
-
-# Source file
-source_file="P1A/generation.json"
-
-# Base directory
-base_dir="./eval/baselines/classifier_guided/alpaca_evaluation100"
-source_file="$base_dir/$cource_file"
-# Loop through each key
-for key in "${keys[@]}"; do
-  # Create the directory if it doesn't exist
-  target_dir="$base_dir/$key"
-  mkdir -p "$target_dir"
-
-  # Copy the file into the target directory
-  cp "$source_file" "$target_dir/"
-done
-
-echo "Replication completed!"
+cd scripts/generate2dims/
+bash run.sh
 ```
 
-</details>
+## Generate Classifier-Guided Text for 3 Dimensions
 
----
-
-## Baseline Evaluation
-
-To get the preference prompt baseline and no-preference prompting baseline directly from our scripts, ensure to rename the files using the following command:
+Example of using $\alpha_1=\alpha_2=\alpha_3=0.5$ 
 
 ```bash
-find ./eval_generations/baselines/PreferencePrompting/alpaca_evaluation -type f -name "*.json" -execdir mv '{}' generation.json \;
+cd scripts/generate3dims/
+bash run.sh
 ```
 
----
 
 
+We have the classifier model, reward model and p-soup model in [google drive](https://drive.google.com/drive/folders/1K5pXvUucy_2P0dPYWKpmLb9y1XOCtthW?usp=drive_link) for easy use. 

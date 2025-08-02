@@ -207,13 +207,13 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Guided text generation with classifier guidance.")
 
     # Model and tokenizer paths
-    parser.add_argument('--cache_dir', type=str, default='/share/nikola/js3673/cache', help='Cache directory for models.')
+    parser.add_argument('--cache_dir', type=str, default='cache', help='Cache directory for models.')
     parser.add_argument('--tokenizer_model', type=str, default='TheBloke/tulu-7B-fp16', help='Tokenizer model name or path.')
     parser.add_argument('--classifier_tokenizer_model', type=str, default='JackFram/llama-160m', help='Classifier tokenizer model name or path.')
     parser.add_argument('--classifier_model_path', type=str, required=True, help='Path to the trained classifier model.')
 
     # Data paths
-    parser.add_argument('--dataset_path', type=str, default = '/share/nikola/js3673/project/personalized_alignment/Classifier-Guided/eval_generations/eval_data', help='Path to the input data JSON file.')
+    parser.add_argument('--dataset_path', type=str, default = 'data/processed/top1', help='Path to the input data JSON file.')
     parser.add_argument('--dataset', type=str, default = 'koala', help='name of the dataset')
     parser.add_argument('--output_dir', type=str, default='/share/nikola/js3673/project/personalized_alignment/Classifier-Guided/eval_generations', help='Directory to save the output JSON file.')
 

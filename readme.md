@@ -166,4 +166,3 @@ bash run.sh
 
 
 
-We have the classifier model, reward model and p-soup model in [google drive](https://drive.google.com/drive/folders/1K5pXvUucy_2P0dPYWKpmLb9y1XOCtthW?usp=drive_link) for easy use. 

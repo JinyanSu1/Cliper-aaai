@@ -215,7 +215,7 @@ def parse_args():
     # Data paths
     parser.add_argument('--dataset_path', type=str, default = 'data/processed/top1', help='Path to the input data JSON file.')
     parser.add_argument('--dataset', type=str, default = 'koala', help='name of the dataset')
-    parser.add_argument('--output_dir', type=str, default='/share/nikola/js3673/project/personalized_alignment/Classifier-Guided/eval_generations', help='Directory to save the output JSON file.')
+    parser.add_argument('--output_dir', type=str, default='eval_generations', help='Directory to save the output JSON file.')
 
     # Generation parameters
     parser.add_argument('--alphas', nargs='+', type=float, required=True, help='Scaling factors for classifier probabilities.')

@@ -2,7 +2,7 @@
 
 # Set default values
 DEFAULT_DATASET_DIR="../../eval/baselines/classifier_guided"
-DEFAULT_REWARD_MODEL_BASE_PATH="../../models/Classifier-Guided/reward_models"
+DEFAULT_REWARD_MODEL_BASE_PATH="../../models/reward_models"
 DEFAULT_PROMPT_DIR="../../prompts"
 DEFAULT_MODEL_NAME="TheBloke/tulu-7B-fp16"
 DEFAULT_CACHE_DIR="/share/nikola/js3673/cache"
@@ -14,7 +14,7 @@ export OPENAI_API_KEY=sk-proj-2kv8ZbQueeMFKTn2mBM_mMVANAZehqII0ZiuK3V01kzgncaUmL
 # Datasets to process
 # DATASETS=("koala")
 # BASELINES=("NoPreference")
-DATASETS=('alpaca_test100')
+DATASETS=('koala' 'ultrafeedback' 'alpaca_test100' 'alpaca_evaluation100')
 BASELINES=('PreferencePrompting')
 
 # Iterate over datasets and baselines
@@ -34,6 +34,7 @@ for dataset in "${DATASETS[@]}"; do
             --baseline "$baseline" \
             --output_file "$DEFAULT_OUTPUT_FILE" \
             --gpt4_model_name "$DEFAULT_GPT4_MODEL_NAME" \
-            --total_dims 2
+            --total_dims 2 \
+            --use_reward_model
     done
 done

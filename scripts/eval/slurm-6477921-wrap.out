@@ -1,0 +1,1504 @@
+Processing dataset: koala with baseline: NoPreference
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+result for dim ['P1A'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P1A'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P1A'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P1A'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P1A'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P1A'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P1B'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P2A'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P2B'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P3A'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P3B'] and alphas ['1.00'] already exists, skipping....
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+Processing dataset: koala with baseline: NoPreference
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+result for dim ['P1A', 'P3A'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['1.00', '1.00'] already exists, skipping....
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+result for dim ['P1B', 'P3A'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P2B', 'P3B'] and alphas ['1.00', '1.00'] already exists, skipping....
+Processing dataset: koala with baseline: NoPreference
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+result for dim ['P1A', 'P2A', 'P3A'] and alphas ['0.50', '0.50', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P2A', 'P3A'] and alphas ['0.50', '0.50', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P2A', 'P3A'] and alphas ['0.50', '0.80', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P2A', 'P3A'] and alphas ['0.50', '0.80', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P2A', 'P3A'] and alphas ['0.80', '0.50', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P2A', 'P3A'] and alphas ['0.80', '0.50', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P2A', 'P3A'] and alphas ['0.80', '0.80', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P2A', 'P3A'] and alphas ['0.80', '0.80', '0.80'] already exists, skipping....
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+Processing dataset: ultrafeedback with baseline: NoPreference
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+result for dim ['P1A'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P1A'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P1A'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P1A'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P1A'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P1A'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P1B'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P1B'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P2A'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P2A'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P2B'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P2B'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P3A'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P3A'] and alphas ['1.00'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.05'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.10'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.30'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.50'] already exists, skipping....
+result for dim ['P3B'] and alphas ['0.80'] already exists, skipping....
+result for dim ['P3B'] and alphas ['1.00'] already exists, skipping....
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 1
+Skipping ['P2B', 'P3B'] with 2 alphas
+Processing dataset: ultrafeedback with baseline: NoPreference
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 2
+Skipping ['P3B'] with 1 alphas
+result for dim ['P1A', 'P3A'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P3A'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P1A', 'P3B'] and alphas ['1.00', '1.00'] already exists, skipping....
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+len alphas 2 total_dims 2
+Skipping ['P1A', 'P2A', 'P3A'] with 3 alphas
+result for dim ['P1B', 'P3A'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P1B', 'P3A'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P1B', 'P3B'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P2A', 'P3A'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.50', '0.30'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.50', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.50', '0.80'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.80', '0.50'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['0.80', '0.80'] already exists, skipping....
+result for dim ['P2A', 'P3B'] and alphas ['1.00', '1.00'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.05', '0.05'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.10', '0.10'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.30', '0.50'] already exists, skipping....
+result for dim ['P2B', 'P3A'] and alphas ['0.50', '0.30'] already exists, skipping....
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 38.00%
+Lose rate: 58.00%
+Tie rate: 4.00%
+Win rate: 70.00%
+Lose rate: 0.00%
+Tie rate: 30.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 32.00%
+Lose rate: 68.00%
+Tie rate: 0.00%
+Win rate: 68.00%
+Lose rate: 2.00%
+Tie rate: 30.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 42.00%
+Lose rate: 58.00%
+Tie rate: 0.00%
+Win rate: 62.00%
+Lose rate: 0.00%
+Tie rate: 38.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 36.00%
+Lose rate: 62.00%
+Tie rate: 2.00%
+Win rate: 74.00%
+Lose rate: 2.00%
+Tie rate: 24.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 40.00%
+Lose rate: 58.00%
+Tie rate: 2.00%
+Win rate: 70.00%
+Lose rate: 0.00%
+Tie rate: 30.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 58.00%
+Lose rate: 32.00%
+Tie rate: 10.00%
+Win rate: 30.00%
+Lose rate: 10.00%
+Tie rate: 60.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 58.00%
+Lose rate: 36.00%
+Tie rate: 6.00%
+Win rate: 26.00%
+Lose rate: 10.00%
+Tie rate: 64.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 50.00%
+Lose rate: 36.00%
+Tie rate: 14.00%
+Win rate: 28.00%
+Lose rate: 16.00%
+Tie rate: 56.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 52.00%
+Lose rate: 42.00%
+Tie rate: 6.00%
+Win rate: 18.00%
+Lose rate: 10.00%
+Tie rate: 72.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 54.00%
+Lose rate: 40.00%
+Tie rate: 6.00%
+Win rate: 24.00%
+Lose rate: 22.00%
+Tie rate: 54.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 50.00%
+Lose rate: 40.00%
+Tie rate: 10.00%
+Win rate: 20.00%
+Lose rate: 12.00%
+Tie rate: 68.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 60.00%
+Lose rate: 32.00%
+Tie rate: 8.00%
+Win rate: 26.00%
+Lose rate: 10.00%
+Tie rate: 64.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 46.00%
+Lose rate: 46.00%
+Tie rate: 8.00%
+Win rate: 26.00%
+Lose rate: 20.00%
+Tie rate: 54.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=2, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f1d09bccbb0>, device='cuda')
+args.params None
+Win rate: 38.00%
+Lose rate: 58.00%
+Tie rate: 4.00%
+Win rate: 24.00%
+Lose rate: 14.00%
+Tie rate: 62.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim2.json
+Processing dataset: ultrafeedback with baseline: NoPreference
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3A'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P3B'] with 1 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1A', 'P3B'] with 2 alphas
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=3, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f7b9ec94bb0>, device='cuda')
+args.params None
+Win rate: 88.00%
+Lose rate: 4.00%
+Tie rate: 8.00%
+Win rate: 60.00%
+Lose rate: 22.00%
+Tie rate: 18.00%
+Win rate: 66.00%
+Lose rate: 2.00%
+Tie rate: 32.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim3.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=3, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f7b9ec94bb0>, device='cuda')
+args.params None
+Win rate: 86.00%
+Lose rate: 6.00%
+Tie rate: 8.00%
+Win rate: 58.00%
+Lose rate: 26.00%
+Tie rate: 16.00%
+Win rate: 70.00%
+Lose rate: 0.00%
+Tie rate: 30.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim3.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=3, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f7b9ec94bb0>, device='cuda')
+args.params None
+Win rate: 84.00%
+Lose rate: 6.00%
+Tie rate: 10.00%
+Win rate: 56.00%
+Lose rate: 34.00%
+Tie rate: 10.00%
+Win rate: 60.00%
+Lose rate: 2.00%
+Tie rate: 38.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim3.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=3, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f7b9ec94bb0>, device='cuda')
+args.params None
+Win rate: 80.00%
+Lose rate: 8.00%
+Tie rate: 12.00%
+Win rate: 54.00%
+Lose rate: 26.00%
+Tie rate: 20.00%
+Win rate: 68.00%
+Lose rate: 0.00%
+Tie rate: 32.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim3.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=3, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f7b9ec94bb0>, device='cuda')
+args.params None
+Win rate: 82.00%
+Lose rate: 6.00%
+Tie rate: 12.00%
+Win rate: 50.00%
+Lose rate: 28.00%
+Tie rate: 22.00%
+Win rate: 66.00%
+Lose rate: 2.00%
+Tie rate: 32.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim3.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=3, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f7b9ec94bb0>, device='cuda')
+args.params None
+Win rate: 78.00%
+Lose rate: 10.00%
+Tie rate: 12.00%
+Win rate: 52.00%
+Lose rate: 34.00%
+Tie rate: 14.00%
+Win rate: 66.00%
+Lose rate: 2.00%
+Tie rate: 32.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim3.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=3, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f7b9ec94bb0>, device='cuda')
+args.params None
+Win rate: 84.00%
+Lose rate: 8.00%
+Tie rate: 8.00%
+Win rate: 54.00%
+Lose rate: 28.00%
+Tie rate: 18.00%
+Win rate: 76.00%
+Lose rate: 0.00%
+Tie rate: 24.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim3.json
+args Namespace(dataset='ultrafeedback', dataset_dir='../../eval/baselines/classifier_guided', reward_model_base_path='../../models/reward_models', prompt_dir='../../prompts', model_name='TheBloke/tulu-7B-fp16', cache_dir='/share/nikola/js3673/cache', baseline_path='../../eval/baselines', baseline='NoPreference', use_reward_model=False, output_file='../../eval/results', gpt4_model_name='gpt-4o-mini-2024-07-18', total_dims=3, params_file=None, tokenizer=LlamaTokenizer(name_or_path='TheBloke/tulu-7B-fp16', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=False, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+), client=<openai.OpenAI object at 0x7f7b9ec94bb0>, device='cuda')
+args.params None
+Win rate: 84.00%
+Lose rate: 6.00%
+Tie rate: 10.00%
+Win rate: 50.00%
+Lose rate: 40.00%
+Tie rate: 10.00%
+Win rate: 70.00%
+Lose rate: 0.00%
+Tie rate: 30.00%
+Results saved to ../../eval/results/ultrafeedback/NoPreference_useRM_0_total_dim3.json
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P1B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2A', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3A'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas
+len alphas 2 total_dims 3
+Skipping ['P2B', 'P3B'] with 2 alphas

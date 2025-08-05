@@ -5,12 +5,12 @@ DEFAULT_DATASET_DIR="../../eval/baselines/classifier_guided"
 DEFAULT_REWARD_MODEL_BASE_PATH="../../models/Classifier-Guided/reward_models"
 DEFAULT_PROMPT_DIR="../../prompts"
 DEFAULT_MODEL_NAME="TheBloke/tulu-7B-fp16"
-DEFAULT_CACHE_DIR="/share/nikola/js3673/cache"
+DEFAULT_CACHE_DIR="cache"
 DEFAULT_BASELINE_PATH="../../eval/baselines"
 DEFAULT_OUTPUT_FILE="../../eval/results"
 # DEFAULT_GPT4_MODEL_NAME="gpt-4o-2024-11-20"
 DEFAULT_GPT4_MODEL_NAME="gpt-4o-mini-2024-07-18"
-export OPENAI_API_KEY=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
+export OPENAI_API_KEY=xxx # Replace with your actual OpenAI API key
 # Datasets to process
 # DATASETS=("koala")
 # BASELINES=("NoPreference")

@@ -45,8 +45,8 @@ import os
 import json
 
 # Define the input and output directories
-input_dir = '/share/nikola/js3673/project/personalized_alignment/Classifier-Guided/data/processed_data'
-output_dir = '/share/nikola/js3673/project/personalized_alignment/Classifier-Guided/data/processed_data_processed'
+input_dir = 'data/processed_data'
+output_dir = 'data/processed_data_processed'
 
 # List of folders to process
 folders = ['P1A', 'P2A', 'P3A', 'P1B', 'P2B', 'P3B']
